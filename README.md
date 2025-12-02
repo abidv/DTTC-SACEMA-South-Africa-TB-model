@@ -1,17 +1,15 @@
 ## DTTC-SACEMA South Africa Tuberculosis Model 
 
-This project contains a deterministic, compartmental transmission-dynamic model developed to simulate the tuberculosis (TB) epidemic in South Africa. Created through a collaboration between the Desmond Tutu TB Centre (DTTC) and the South African Centre for Epidemiological Modelling and Analysis (SACEMA), this model builds on an earlier version developed by the group from 2017 to 2020.
+This repository provides the R code for a deterministic, compartmental transmission-dynamic model of the tuberculosis (TB) epidemic in South Africa. The model was developed through a collaboration between the Desmond Tutu TB Centre (DTTC) and the South African Centre for Epidemiological Modelling and Analysis (SACEMA), and builds on an earlier version developed between 2017 and 2020.
+The model structure and underlying assumptions are described in detail in the accompanying publication. In brief, the model incorporates established TB transmission dynamics alongside additional features to represent transitions and losses along the TB care cascade. It distinguishes between subclinical and clinical TB disease states and further differentiates individuals based on their care-seeking status. HIV infection, disease progression, and antiretroviral therapy are also explicitly modelled.
 
-This model follows the conventions of earlier TB models; however, it includes additional structures to simulate transitions and losses along the care cascade for TB. The model distinguishes between people with subclinical and clinical TB. Among the latter, it accounts for people who have not yet sought care, those who have accessed healthcare services and are awaiting diagnosis, and those who previously sought care but were lost along the TB care cascade. The model also includes subdivisions for HIV infection and progression, and antiretroviral treatment. 
 ## Related publication
-
-[![DOI](https://)
 
 **Impact of prolonged tuberculosis healthcare service disruptions following the COVID-19 pandemic in South Africa – a mathematical modelling study***
 
-Authors
+Authors:  Abigail K. de Villiers, Sue-Ann Meehan, Muhammad Osman, Rory Dunbar, James A. Seddon, Cari van Schalkwyk, Gerald J. Maarman, Karen Du Preez, Anneke C. Hesseling, Florian M. Marx, for the DTTC-SACEMA TB Modelling Group
 
-link to publication 
+[![DOI](https://)
 
 
 ## License 
@@ -39,8 +37,6 @@ To view a copy of this license, visit [Creative Commons BY-NC-SA 4.0](https://cr
 
 
 ## Required packages 
-
-To set up this project, you'll need to install the necessary R packages. We recommend using the pacman package to streamline the installation and loading process.
 
 The following R packages are essential for running this model:
 - readxl: For reading data from Excel files.
